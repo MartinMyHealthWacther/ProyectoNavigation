@@ -4,9 +4,7 @@ import { StyleSheet , ScrollView , View , Text , StatusBar ,} from 'react-native
 //import { AppLoading } from 'expo-app-loading';
 import { NavigationContainer } from '@react-navigation/native';
 import MealsNavigator from './navigation/MealsNavigator';
-
-
-
+import Colors from './constants/Colors';
 
 export default function App(){
   return (
